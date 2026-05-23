@@ -1,0 +1,10 @@
+# Configuração do dataset de segmentação de instâncias
+path: /home/vicom04/yolo11/yolo26segm/datasets # caminho raiz do dataset
+train: images/train  # sub-caminho para imagens de treino
+val: images/val      # sub-caminho para imagens de validação
+test:                # opcional
+
+# Classes do seu dataset
+names:
+  0: folha
+  1: doenca
