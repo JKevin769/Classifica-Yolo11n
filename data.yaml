@@ -1,0 +1,10 @@
+# Caminho base do seu dataset
+path: /home/vicom04/yolo11/yolo26segm/datasets
+
+# Caminhos relativos às pastas de imagens (dentro do 'path' acima)
+train: images/train
+val: images/val
+
+# Configuração das Classes
+names:
+  0: lagarta
